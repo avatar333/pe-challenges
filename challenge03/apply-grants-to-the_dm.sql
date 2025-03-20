@@ -1,0 +1,2 @@
+GRANT ALL PRIVILEGES on snd.* to 'the_dm'@'%';
+FLUSH PRIVILEGES;
