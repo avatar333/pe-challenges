@@ -2,9 +2,9 @@
 <html>
 <body>
 <?php
-$hostname = "<your vm IP>";
+$hostname = "<YOUR VM IP>";
 $username = "the_dm";
-$password = "thisishowiroll";
+$password = "<YOUR PASSWORD>";
 $db = "snd";
 $dbconnect=mysqli_connect($hostname,$username,$password,$db);
 if ($dbconnect->connect_error) {
