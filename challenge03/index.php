@@ -5,7 +5,7 @@
 $hostname = "<YOUR VM IP>";
 $username = "the_dm";
 $password = "<YOUR PASSWORD>";
-$db = "snd";
+$db = "dnd";
 $dbconnect=mysqli_connect($hostname,$username,$password,$db);
 if ($dbconnect->connect_error) {
     die("Database connection failed: " . $dbconnect->connect_error);
