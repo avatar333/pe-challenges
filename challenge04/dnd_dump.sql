@@ -1,6 +1,6 @@
 -- MariaDB dump 10.19  Distrib 10.4.21-MariaDB, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: snd-a
+-- Host: localhost    Database: dnd
 -- ------------------------------------------------------
 -- Server version	10.4.21-MariaDB-1:10.4.21+maria~bionic-log
 
@@ -19,9 +19,9 @@
 -- Table structure for table `monsters_to_fight`
 --
 
-CREATE DATABASE IF NOT EXISTS `snd-a`;
+CREATE DATABASE IF NOT EXISTS `dnd`;
 
-USE `snd-a`;
+USE `dnd`;
 
 DROP TABLE IF EXISTS `monsters_to_fight`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
