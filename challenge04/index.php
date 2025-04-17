@@ -2,7 +2,7 @@
 <html>
 <body>
 <?php
-$hostname = "<YOUR VM IP>";
+$hostname = "<THE MARIADB CONTAINER NAME>";
 $username = "the_dm";
 $password = "the_dm123";
 $db = "dnd";
