@@ -2,7 +2,7 @@
 <html>
 <body>
 <?php
-$hostname = "my-mariadb-lts>";
+$hostname = "my-mariadb-lts";
 $username = "the_dm";
 $password = "the_dm123";
 $db = "dnd";
